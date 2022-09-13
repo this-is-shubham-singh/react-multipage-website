@@ -1,0 +1,57 @@
+.contact-container {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.common-heading {
+    text-align: center;
+    margin: 15px;
+    font-size: 30px;
+}
+
+.form-div {
+    margin-top: 20px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+
+    width: 400px;
+}
+
+.inputtext {
+    border: 0.5px solid grey;
+    margin-bottom: 20px;
+    padding: 7px;
+}
+
+.inputemail {
+    border: 0.5px solid grey;
+    margin-bottom: 20px;
+    padding: 7px;
+}
+
+.inputtextarea {
+    border: 0.5px solid grey;
+    margin-bottom: 20px;
+
+}
+
+.inputsubmit {
+    border: 0.5px solid grey;
+    align-self: center;
+    width: 100px;
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    transform: transform .3s;
+
+}
+
+.inputsubmit:hover {
+    transform: scale(1.03)
+}

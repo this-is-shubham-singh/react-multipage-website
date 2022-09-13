@@ -1,0 +1,17 @@
+.errorcontainer{
+    /* border: 1px solid red; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.errorbutton{
+    color:white;
+    text-decoration: none;
+}
+
+.errorimage{
+    width: 70%;
+    /* border: 1px solid black; */
+}
